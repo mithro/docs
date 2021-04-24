@@ -16,6 +16,8 @@ versions:
 
 To run a workflow manually, the workflow must be configured to run on the `workflow_dispatch` event. For more information about configuring the `workflow_dispatch` event, see "[Events that trigger workflows](/actions/reference/events-that-trigger-workflows#workflow_dispatch)".
 
+{% data reusables.github-actions.branch-requirement %}
+
 ### Running a workflow on {% data variables.product.prodname_dotcom %} 
 
 To trigger the `workflow_dispatch` event on {% data variables.product.prodname_dotcom %}, your workflow must be in the default branch. Follow these steps to manually trigger a workflow run.
